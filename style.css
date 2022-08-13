@@ -1,0 +1,51 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2{
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 300px;
+	width: 300px;
+	border-radius: 15%;
+	border: 5px solid forestgreen;
+}
+
+#landing{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: -30px;
+
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+.tools{
+	border: 5px solid #f2f2f2;
+	height: 200px;
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
